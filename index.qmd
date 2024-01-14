@@ -1,0 +1,26 @@
+---
+title: "Resoutput Example"
+filters:
+  - resoutput
+listing:
+  - id: papers
+    contents:
+      - papers.yml
+    template: _extensions/resoutput/assets/pubs.ejs
+  - id: data
+    contents:
+      - data.yml
+    template: _extensions/resoutput/assets/pubs.ejs
+---
+
+## Papers
+
+::: {#papers}
+:::
+
+## Data
+
+::: {#data}
+:::
+
+
