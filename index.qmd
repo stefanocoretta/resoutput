@@ -1,16 +1,17 @@
 ---
-title: "Resoutput Example"
-filters:
-  - resoutput
+title: "ResOutput Example"
 listing:
   - id: papers
     contents:
       - papers.yml
-    template: _extensions/resoutput/assets/pubs.ejs
+    # change the template path to _extensions/stefanocoretta/resoutput/pubs.ejs
+    template: _extensions/resoutput/pubs.ejs
   - id: data
     contents:
       - data.yml
-    template: _extensions/resoutput/assets/pubs.ejs
+    # change the template path to _extensions/stefanocoretta/resoutput/pubs.ejs
+    template: _extensions/resoutput/pubs.ejs
+format: html
 ---
 
 ## Papers

@@ -1,23 +1,53 @@
-# Resoutput Extension For Quarto
+# ResOutput Extension For Quarto
 
-_TODO_: Add a short description of your extension.
+ResOutput provides users with a custom ejs template for listing research output (publications, data, software, talsk, etc) in a quarto website.
 
 ## Installing
 
-_TODO_: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto add <github-organization>/resoutput
+quarto add stefanocoretta/resoutput
 ```
 
 This will install the extension under the `_extensions` subdirectory.
 If you're using version control, you will want to check in this directory.
 
+Two dependencies (extensions) will also be installed (they are needed for the icons):
+
+- https://github.com/stefanocoretta/osi-font
+- https://github.com/mcanouil/quarto-iconify
+
 ## Using
 
-_TODO_: Describe how to use your extension.
+Use `_extensions/stefanocoretta/resoutput/pubs.ejs` as the template in a document listing.
+
+The supported fields are:
+
+- `year`
+- `open`
+- `rr`
+- `title`
+- `author`
+- `institution`
+- `journal`
+- `version`
+- `location`
+- `doi`
+- `manuscript`
+- `submitted`
+- `accepted`
+- `published`
+- `registration`
+- `url`
+- `download`
+- `github`
+- `video`
+- `abstract`
+- `compendium`
 
 ## Example
 
-Here is the source code for a minimal example: [example.qmd](example.qmd).
+Here is the source code for a minimal example: [index.qmd](index.qmd).
+
+You can see the rendered HTML [here](stefanocoretta.github.io/resoutput/).
 
