@@ -1,5 +1,7 @@
 # ResOutput Extension For Quarto
 
+[![DOI](https://zenodo.org/badge/743055767.svg)](https://doi.org/10.5281/zenodo.15769144)
+
 ResOutput provides users with a custom ejs template for listing research output (publications, data, software, talsk, etc) in a quarto website.
 
 ## Installing
